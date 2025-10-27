@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        a:active{
+            color: blue;
+        }
+        .especial::before{
+            content: "⇒ ";
+           
+        }
+        .especial::after{
+            content: " ⇐";
+             
+        }
+        .especial{
+            color: rgb(255, 205, 205);
+            background-color: rgba(255, 190, 190, 0.664);
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.facebook.com/" target="_blank" rel="external" class="especial">Repositório GIthub</a></li>
+        <li><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="external" class="especial">Canal do Youtube</a></li>
+        <li><a href="https://vitucho6.github.io/Beijing/" target="_blank" rel="external" class="especial">Site do cursoemvideo</a></li>
+    </ul>
+</body>
+</html>
